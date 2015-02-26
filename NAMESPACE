@@ -1,0 +1,3 @@
+exportPattern("^[^\\.]")
+importFrom(add.scale.bar, ape, axisPhylo, image.DNAbin, base.freq, dist.dna, ltt.plot.coords, nj, phydataplot, seg.sites, tiplabels)
+importFrom(pegas, haplotype, site.spectrum)
