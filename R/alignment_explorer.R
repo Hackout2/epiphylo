@@ -19,8 +19,6 @@
 
 alignment_explorer <- function(x)
 {
-    require(pegas)
-
     op <- options(warn = -1)
     on.exit(options(op))
 
