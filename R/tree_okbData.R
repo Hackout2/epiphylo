@@ -31,7 +31,6 @@
 
 tree_okbData <- function(x, ncatmax = 10, colfun = topo.colors)
 {
-    require(pegas)
     DNA <- x@dna@dna
     LOCI <- names(DNA)
     cat("okbData object has", length(LOCI), "genetic data set(s)\n")
