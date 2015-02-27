@@ -1,7 +1,7 @@
 Package: epiphylo
 Title: Epidemics and outbreak dynamics with phylogenetic trees
 Version: 0.0.1
-Authors@R: c(person("Emmanuel", "Paradis", role = c("aut", "rec", "cph"), email = "Emmanuel.Paradis@ird.fr"))
+Authors@R: c(person("Emmanuel", "Paradis", role = c("aut", "cre", "cph"), email = "Emmanuel.Paradis@ird.fr"))
 Description: Graphical exploration of outbreak dynamics using phylogenies, particularly coupled with the temporal data from metadata of "obkData" objects from the package OutbreakTools. Rapid graphical summary of genetic dynamics from outbreak data.
 Depends: ape, OutbreakTools, pegas
 License: GPL (>= 2)
