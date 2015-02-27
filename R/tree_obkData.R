@@ -24,12 +24,11 @@
 #'
 #' @examples
 #' \dontrun{
-#' require(OutbreakTools)
 #' data(ToyOutbreak)
-#' tree_okbData(ToyOutbreak)
+#' tree_obkData(ToyOutbreak)
 #' }
 
-tree_okbData <- function(x, ncatmax = 10, colfun = topo.colors)
+tree_obkData <- function(x, ncatmax = 10, colfun = topo.colors)
 {
     DNA <- x@dna@dna
     LOCI <- names(DNA)
